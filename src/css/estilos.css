@@ -1,0 +1,88 @@
+body {
+    background: hsl(257, 40%, 49%) url(../images/bg-desktop.svg) center center;
+    font-family: 'Poppins';
+    color: #FFF;
+    max-width: 1440px;
+    max-height: 900px;
+    width: 100%;
+}
+
+
+.header img {
+    width: 200px;
+    margin: 60px 70px;
+}
+
+
+.container {
+    display: flex;
+    margin-left: 77px;
+    margin-top: 10px;
+}
+
+.container img {
+    max-width: 100%;
+}
+
+.container .introduction {
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    margin: 46px;
+}
+
+.container .introduction .title {
+    font-size: 40px;
+    font-weight: 500;
+}
+
+.container .introduction .info {
+    font-weight: 300;
+    margin-top: 15px;
+}
+
+.container .introduction button {
+    font-size: 18px;
+    color: rgb(110, 108, 108);
+    width: 200px;
+    height: 60px;
+    margin-top: 33px;
+    border-radius: 50px;
+    border-style: hidden;
+    box-shadow: 3px 3px 5px 2px rgb(65, 64, 64);
+    transition: 0.3s;
+}
+
+.container .introduction button:hover {
+    color: #FFF;
+    cursor: pointer;
+    background-color: hsl(300, 69%, 71%);
+}
+
+.footer {
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+    gap: 20px;
+    padding-right: 20px;
+}
+
+/* .footer .social-medias {
+    display: flex;
+    justify-content: space-between;
+    width: 160px;
+    margin-right: 90px;
+} */
+
+.footer i {
+    color: #FFF;
+    font-size: 18px;
+    transition: 0.3s ease-in-out;
+    border-radius: 50%;
+    padding: 10px;
+}
+
+.footer i:hover {
+    color: hsl(300, 69%, 71%);
+    border-color: hsl(300, 69%, 71%);
+}
