@@ -1,10 +1,11 @@
 body {
-    background: hsl(257, 40%, 49%) url(../images/bg-desktop.svg) center center;
+    background: hsl(257, 40%, 49%) url(../images/bg-desktop.svg) center center no-repeat;
     font-family: 'Poppins';
     color: #FFF;
     max-width: 1440px;
     max-height: 900px;
     width: 100%;
+    margin: 0 auto;
 }
 
 
@@ -67,12 +68,18 @@ body {
     padding-right: 20px;
 }
 
+.footer nav {
+    display: flex;
+    gap: 20px;
+}
+
 .footer i {
     color: #FFF;
     font-size: 18px;
     transition: 0.3s ease-in-out;
     border-radius: 50%;
     padding: 10px;
+    display: flex;
 }
 
 .footer i:hover {
