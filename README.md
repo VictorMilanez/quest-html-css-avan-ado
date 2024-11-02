@@ -11,8 +11,8 @@ Este é um projeto de página de landing proposto pelo **Frontend Mentor**, dese
 - **HTML**
 - **CSS**
 
-<img src="./1.png" alt="imagem do projeto Huddle Base">
+<img src="./src/images/1-readme.png" alt="imagem do projeto Huddle Base">
 <br>
-<img src="./2.png" alt="imagem do projeto Huddle Base">
+<img src="./src/images/2-readme.png" alt="imagem do projeto Huddle Base">
 <br>
-<img src="./3.png" alt="imagem do projeto Huddle Base">
+<img src="./src/images/3-readme.png" alt="imagem do projeto Huddle Base">
